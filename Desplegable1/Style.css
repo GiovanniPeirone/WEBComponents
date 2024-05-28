@@ -1,0 +1,21 @@
+.Contenedor{
+    display: grid;
+    margin: auto;
+    margin-top: 13%;
+    grid-template-rows: repeat(3, 1fr);
+    height: 600px;
+    width: 900px;
+    row-gap: 50px;
+}
+
+._DIV{
+    padding-left: 15px;
+    padding-top: 80px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+._DIV:hover{
+    background-color: black;
+    color: whitesmoke;
+}
